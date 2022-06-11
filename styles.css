@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    font-family: 'RocknRoll One', sans-serif;
+    background: linear-gradient(#D9B041, #C10A20);
+    color: #FFE808;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#rnr-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #e25822;
+    margin-bottom: 10px;
+}
+
+#rnr-age {
+    background: #e25822;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#lb-date {
+    margin: 0;
+    background: #e25822;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #e25822;
+    border-radius: 10px;
+    background-image: url("images/flame.png");
+    background-size: cover;
+}
+
+#gift-img-applause:hover {
+    background-image: url("images/applause.webp");
+}
+
+#gift-img-party:hover {
+    background-image: url("images/party.webp");
+}
+
+#gift-img-rocknroll:hover {
+    background-image: url("images/rocknroll.webp");
+}
+
+#gift-img-delirium:hover {
+    background-image: url("images/delirium.webp");
+}
+
+#gift-img-pillow:hover {
+    background-image: url("images/pillow.webp");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #FFE808;
+    text-shadow: 0 0 5px black;
+}
